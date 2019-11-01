@@ -1,0 +1,118 @@
+html {
+    font-size: 100%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+* {
+    box-sizing: inherit; /* keep */
+}
+
+body {
+  font-family:  Lora, Palatino, "Big Caslon", serif;
+  background-color: #CBCDB9;
+}
+header {
+  border: 5px solid #000;
+  border-radius: 25px;
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  max-width: 1280px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+header p {
+  padding: 0 15rem;
+  margin: 0;
+}
+
+body {
+  height: 1000px;
+}
+
+section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0 50px 50px 50px;
+}
+
+article {
+  max-width: 450px;
+}
+
+#first {
+margin-bottom: 5rem;
+}
+
+img {
+  opacity: 1;
+  max-width: 100%
+}
+
+footer {
+  margin: 0;
+}
+.no {
+  opacity: .5
+}
+
+.steady {
+  padding-top: 0;
+}
+
+.soQuick {
+  padding-top: 20rem;
+}
+
+a:link  {
+    color:  #0000ff;
+}
+
+a:visited {
+    color:  #3128b3;
+}
+
+a:focus {
+    color:  #2e0603;
+}
+
+a:hover {
+    color:  #000085;
+}
+
+a:active  {
+    color:  #510C06;
+}
+
+
+@media screen and (max-width: 1000px) {
+  header p {
+    padding: 0 5rem;
+    margin-bottom: 1rem;
+  }
+
+@media screen and (max-width: 600px) {
+  header p {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+@media screen and (max-width: 500px) {
+  section {
+    padding: 0;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .soQuick {
+    padding-top: 10rem;
+  }
